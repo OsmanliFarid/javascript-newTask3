@@ -1,0 +1,28 @@
+.box1{
+    min-width: 800px;
+    height: 500px;
+    border: 1px solid;
+}
+
+.boxs{
+    display: flex;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+*{
+    cursor: pointer;
+    transition: 1.2s all;
+}
+.box1 img{
+    width: 500px;
+    height: 500px;
+}
+.box3 img,.box1 img,.box2 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 150px;
+}
